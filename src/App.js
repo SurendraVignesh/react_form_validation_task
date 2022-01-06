@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-
+import contactIcon from "./msg_icon.png";
 
 function App() {
 
@@ -86,7 +86,7 @@ const intializeValues = {
         <div className="col-md-4 left__section">
           <div className="contact-info">
             <img
-              src="https://image.ibb.co/kUASdV/contact-image.png"
+               src={contactIcon}
               alt="image"
             />
             <h2>Get In Touch</h2>
